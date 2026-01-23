@@ -108,7 +108,6 @@
     "jest-util": "30.0.5"
   },
   "dependencies": {
-    "@angular/animations": "21.1.1",
     "@angular/common": "21.1.1",
     "@angular/compiler": "21.1.1",
     "@angular/core": "21.1.1",
