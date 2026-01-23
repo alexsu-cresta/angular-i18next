@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { jest } from '@jest/globals';
 import { defaultInterpolationFormat, I18NextEvents, I18NextLoadResult, ITranslationEvents, ITranslationService } from 'angular-i18next';
-import type { Callback, FormatFunction, i18n, InterpolationOptions, TFunction } from 'i18next';
+import type { Callback, FormatFunction, i18n, InterpolationOptions, TFunction, Modules, Services, ResourceStore } from 'i18next';
 import * as i18next from 'i18next';
 
 
@@ -14,13 +14,13 @@ export class MockI18NextService implements ITranslationService {
     return this.i18next.isInitialized;
   }
 
-  get modules() {
+  get modules(): Modules {
     return this.i18next.modules;
   }
-  get services() {
+  get services(): Services {
     return this.i18next.services;
   }
-  get store() {
+  get store(): ResourceStore {
     return this.i18next.store;
   }
 
