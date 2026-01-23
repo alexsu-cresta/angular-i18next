@@ -1,3 +1,14 @@
+# [21.0.0-3](https://github.com/Romanchuk/angular-i18next/compare/v20.0.1...v21.0.0-3) (2026-01-23)
+
+
+### Bug Fixes
+
+* build ([4f8d746](https://github.com/Romanchuk/angular-i18next/commit/4f8d746e88401bc339250af3383097f6837823cb))
+* jest test setup ([253a5eb](https://github.com/Romanchuk/angular-i18next/commit/253a5eb47f55428e81ec43c0c48fff2de3036205))
+* units ([2a46eda](https://github.com/Romanchuk/angular-i18next/commit/2a46eda0df9e117357965e7499573a88992fef5b))
+
+
+
 # [21.0.0-2](https://github.com/Romanchuk/angular-i18next/compare/v20.0.1...v21.0.0-2) (2026-01-23)
 
 
